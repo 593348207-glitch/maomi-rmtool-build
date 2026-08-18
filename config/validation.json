@@ -1,0 +1,32 @@
+[
+  {
+    "package": 1,
+    "rewards": 35,
+    "mails": 12,
+    "duplicatesRemoved": [],
+    "unresolved": []
+  },
+  {
+    "package": 2,
+    "rewards": 44,
+    "mails": 15,
+    "duplicatesRemoved": [
+      "RM0459"
+    ],
+    "unresolved": []
+  },
+  {
+    "package": 3,
+    "rewards": 74,
+    "mails": 25,
+    "duplicatesRemoved": [],
+    "unresolved": []
+  },
+  {
+    "package": 4,
+    "rewards": 162,
+    "mails": 54,
+    "duplicatesRemoved": [],
+    "unresolved": []
+  }
+]

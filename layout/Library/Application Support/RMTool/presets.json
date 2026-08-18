@@ -1,0 +1,5294 @@
+{
+  "schema": 1,
+  "maxItemsPerMail": 3,
+  "packages": [
+    {
+      "id": 1,
+      "buttonTitle": "套餐1",
+      "mailTitle": "待领取物品",
+      "rewards": [
+        {
+          "code": "RM0001",
+          "name": "体力",
+          "type": 0,
+          "value": 1,
+          "subType": 0,
+          "count": 10000
+        },
+        {
+          "code": "RM0002",
+          "name": "金币",
+          "type": 1,
+          "value": 1,
+          "subType": 0,
+          "count": 500000
+        },
+        {
+          "code": "RM0003",
+          "name": "钻石",
+          "type": 2,
+          "value": 1,
+          "subType": 0,
+          "count": 500000
+        },
+        {
+          "code": "RM0006",
+          "name": "去广告",
+          "type": 100,
+          "value": 31,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0007",
+          "name": "成长基金",
+          "type": 100,
+          "value": 32,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0004",
+          "name": "新手通行证",
+          "type": 100,
+          "value": 9,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0008",
+          "name": "赛季通行证-白银",
+          "type": 100,
+          "value": 109,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0009",
+          "name": "赛季通行证-黄金",
+          "type": 100,
+          "value": 110,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0005",
+          "name": "3天通行证",
+          "type": 100,
+          "value": 30,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0010",
+          "name": "鱼形饼干",
+          "type": 16,
+          "value": 0,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0011",
+          "name": "小鱼干",
+          "type": 16,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0012",
+          "name": "鱼丸",
+          "type": 16,
+          "value": 2,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0013",
+          "name": "沙丁鱼布丁",
+          "type": 16,
+          "value": 3,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0014",
+          "name": "巨型鲫鱼饼",
+          "type": 16,
+          "value": 4,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0015",
+          "name": "时装兑换券",
+          "type": 21,
+          "value": 1,
+          "subType": 0,
+          "count": 300
+        },
+        {
+          "code": "RM0016",
+          "name": "高级时装兑换券",
+          "type": 22,
+          "value": 1,
+          "subType": 0,
+          "count": 300
+        },
+        {
+          "code": "RM0377",
+          "name": "猫咪探索券",
+          "type": 30,
+          "value": 1,
+          "subType": 0,
+          "count": 200
+        },
+        {
+          "code": "RM0378",
+          "name": "星星哨子",
+          "type": 26,
+          "value": 1,
+          "subType": 0,
+          "count": 200
+        },
+        {
+          "code": "RM0379",
+          "name": "性格探索小镜子",
+          "type": 28,
+          "value": 1,
+          "subType": 0,
+          "count": 200
+        },
+        {
+          "code": "RM0380",
+          "name": "特质改写铅笔",
+          "type": 29,
+          "value": 1,
+          "subType": 0,
+          "count": 200
+        },
+        {
+          "code": "RM0381",
+          "name": "家具刷子",
+          "type": 35,
+          "value": 1,
+          "subType": 0,
+          "count": 1500
+        },
+        {
+          "code": "RM0399",
+          "name": "破破烂烂的缝纫",
+          "type": 20,
+          "value": 735,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0403",
+          "name": "雪花精灵",
+          "type": 20,
+          "value": 749,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0404",
+          "name": "鹰狮宝宝",
+          "type": 20,
+          "value": 752,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0470",
+          "name": "抹茶森林猫",
+          "type": 5,
+          "value": 1005,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0464",
+          "name": "红枫林",
+          "type": 5,
+          "value": 1000,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0454",
+          "name": "暮夜短毛",
+          "type": 5,
+          "value": 51,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0465",
+          "name": "热乎乎面包尾",
+          "type": 5,
+          "value": 1001,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0460",
+          "name": "暮光安哥拉",
+          "type": 5,
+          "value": 63,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0505",
+          "name": "圣诞限定皮肤",
+          "type": 100,
+          "value": 173,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0513",
+          "name": "春日精灵时装",
+          "type": 100,
+          "value": 219,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0490",
+          "name": "甜心樱桃时装",
+          "type": 100,
+          "value": 107,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0500",
+          "name": "财阀贵公子时装",
+          "type": 100,
+          "value": 153,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0504",
+          "name": "喵道夫时装",
+          "type": 100,
+          "value": 157,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0522",
+          "name": "活动体力",
+          "type": 24,
+          "value": 11,
+          "subType": 0,
+          "count": 22222
+        }
+      ],
+      "mails": [
+        [
+          {
+            "code": "RM0001",
+            "name": "体力",
+            "type": 0,
+            "value": 1,
+            "subType": 0,
+            "count": 10000
+          },
+          {
+            "code": "RM0002",
+            "name": "金币",
+            "type": 1,
+            "value": 1,
+            "subType": 0,
+            "count": 500000
+          },
+          {
+            "code": "RM0003",
+            "name": "钻石",
+            "type": 2,
+            "value": 1,
+            "subType": 0,
+            "count": 500000
+          }
+        ],
+        [
+          {
+            "code": "RM0006",
+            "name": "去广告",
+            "type": 100,
+            "value": 31,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0007",
+            "name": "成长基金",
+            "type": 100,
+            "value": 32,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0004",
+            "name": "新手通行证",
+            "type": 100,
+            "value": 9,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0008",
+            "name": "赛季通行证-白银",
+            "type": 100,
+            "value": 109,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0009",
+            "name": "赛季通行证-黄金",
+            "type": 100,
+            "value": 110,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0005",
+            "name": "3天通行证",
+            "type": 100,
+            "value": 30,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0010",
+            "name": "鱼形饼干",
+            "type": 16,
+            "value": 0,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0011",
+            "name": "小鱼干",
+            "type": 16,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0012",
+            "name": "鱼丸",
+            "type": 16,
+            "value": 2,
+            "subType": 0,
+            "count": 500
+          }
+        ],
+        [
+          {
+            "code": "RM0013",
+            "name": "沙丁鱼布丁",
+            "type": 16,
+            "value": 3,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0014",
+            "name": "巨型鲫鱼饼",
+            "type": 16,
+            "value": 4,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0015",
+            "name": "时装兑换券",
+            "type": 21,
+            "value": 1,
+            "subType": 0,
+            "count": 300
+          }
+        ],
+        [
+          {
+            "code": "RM0016",
+            "name": "高级时装兑换券",
+            "type": 22,
+            "value": 1,
+            "subType": 0,
+            "count": 300
+          },
+          {
+            "code": "RM0377",
+            "name": "猫咪探索券",
+            "type": 30,
+            "value": 1,
+            "subType": 0,
+            "count": 200
+          },
+          {
+            "code": "RM0378",
+            "name": "星星哨子",
+            "type": 26,
+            "value": 1,
+            "subType": 0,
+            "count": 200
+          }
+        ],
+        [
+          {
+            "code": "RM0379",
+            "name": "性格探索小镜子",
+            "type": 28,
+            "value": 1,
+            "subType": 0,
+            "count": 200
+          },
+          {
+            "code": "RM0380",
+            "name": "特质改写铅笔",
+            "type": 29,
+            "value": 1,
+            "subType": 0,
+            "count": 200
+          },
+          {
+            "code": "RM0381",
+            "name": "家具刷子",
+            "type": 35,
+            "value": 1,
+            "subType": 0,
+            "count": 1500
+          }
+        ],
+        [
+          {
+            "code": "RM0399",
+            "name": "破破烂烂的缝纫",
+            "type": 20,
+            "value": 735,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0403",
+            "name": "雪花精灵",
+            "type": 20,
+            "value": 749,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0404",
+            "name": "鹰狮宝宝",
+            "type": 20,
+            "value": 752,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0470",
+            "name": "抹茶森林猫",
+            "type": 5,
+            "value": 1005,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0464",
+            "name": "红枫林",
+            "type": 5,
+            "value": 1000,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0454",
+            "name": "暮夜短毛",
+            "type": 5,
+            "value": 51,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0465",
+            "name": "热乎乎面包尾",
+            "type": 5,
+            "value": 1001,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0460",
+            "name": "暮光安哥拉",
+            "type": 5,
+            "value": 63,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0505",
+            "name": "圣诞限定皮肤",
+            "type": 100,
+            "value": 173,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0513",
+            "name": "春日精灵时装",
+            "type": 100,
+            "value": 219,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0490",
+            "name": "甜心樱桃时装",
+            "type": 100,
+            "value": 107,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0500",
+            "name": "财阀贵公子时装",
+            "type": 100,
+            "value": 153,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0504",
+            "name": "喵道夫时装",
+            "type": 100,
+            "value": 157,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0522",
+            "name": "活动体力",
+            "type": 24,
+            "value": 11,
+            "subType": 0,
+            "count": 22222
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "buttonTitle": "套餐2",
+      "mailTitle": "待领取物品",
+      "rewards": [
+        {
+          "code": "RM0001",
+          "name": "体力",
+          "type": 0,
+          "value": 1,
+          "subType": 0,
+          "count": 30000
+        },
+        {
+          "code": "RM0002",
+          "name": "金币",
+          "type": 1,
+          "value": 1,
+          "subType": 0,
+          "count": 5000000
+        },
+        {
+          "code": "RM0003",
+          "name": "钻石",
+          "type": 2,
+          "value": 1,
+          "subType": 0,
+          "count": 2500000
+        },
+        {
+          "code": "RM0006",
+          "name": "去广告",
+          "type": 100,
+          "value": 31,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0007",
+          "name": "成长基金",
+          "type": 100,
+          "value": 32,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0004",
+          "name": "新手通行证",
+          "type": 100,
+          "value": 9,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0008",
+          "name": "赛季通行证-白银",
+          "type": 100,
+          "value": 109,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0009",
+          "name": "赛季通行证-黄金",
+          "type": 100,
+          "value": 110,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0005",
+          "name": "3天通行证",
+          "type": 100,
+          "value": 30,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0010",
+          "name": "鱼形饼干",
+          "type": 16,
+          "value": 0,
+          "subType": 0,
+          "count": 800
+        },
+        {
+          "code": "RM0011",
+          "name": "小鱼干",
+          "type": 16,
+          "value": 1,
+          "subType": 0,
+          "count": 800
+        },
+        {
+          "code": "RM0012",
+          "name": "鱼丸",
+          "type": 16,
+          "value": 2,
+          "subType": 0,
+          "count": 800
+        },
+        {
+          "code": "RM0013",
+          "name": "沙丁鱼布丁",
+          "type": 16,
+          "value": 3,
+          "subType": 0,
+          "count": 800
+        },
+        {
+          "code": "RM0014",
+          "name": "巨型鲫鱼饼",
+          "type": 16,
+          "value": 4,
+          "subType": 0,
+          "count": 800
+        },
+        {
+          "code": "RM0015",
+          "name": "时装兑换券",
+          "type": 21,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0016",
+          "name": "高级时装兑换券",
+          "type": 22,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0377",
+          "name": "猫咪探索券",
+          "type": 30,
+          "value": 1,
+          "subType": 0,
+          "count": 400
+        },
+        {
+          "code": "RM0378",
+          "name": "星星哨子",
+          "type": 26,
+          "value": 1,
+          "subType": 0,
+          "count": 400
+        },
+        {
+          "code": "RM0379",
+          "name": "性格探索小镜子",
+          "type": 28,
+          "value": 1,
+          "subType": 0,
+          "count": 400
+        },
+        {
+          "code": "RM0380",
+          "name": "特质改写铅笔",
+          "type": 29,
+          "value": 1,
+          "subType": 0,
+          "count": 400
+        },
+        {
+          "code": "RM0381",
+          "name": "家具刷子",
+          "type": 35,
+          "value": 1,
+          "subType": 0,
+          "count": 4000
+        },
+        {
+          "code": "RM0386",
+          "name": "星星小仙子",
+          "type": 20,
+          "value": 628,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0389",
+          "name": "毛茸茸奶油羊驼",
+          "type": 20,
+          "value": 677,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0395",
+          "name": "蝴蝶结小鹅",
+          "type": 20,
+          "value": 702,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0398",
+          "name": "魔法师杰克南瓜灯",
+          "type": 20,
+          "value": 734,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0413",
+          "name": "UFO",
+          "type": 20,
+          "value": 1006,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0464",
+          "name": "红枫林",
+          "type": 5,
+          "value": 1000,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0467",
+          "name": "焦糖布丁布偶猫",
+          "type": 5,
+          "value": 1003,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0470",
+          "name": "抹茶森林猫",
+          "type": 5,
+          "value": 1005,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0459",
+          "name": "彩虹短毛",
+          "type": 5,
+          "value": 61,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0463",
+          "name": "三叶草安哥拉",
+          "type": 5,
+          "value": 70,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0449",
+          "name": "金钟花波斯",
+          "type": 5,
+          "value": 38,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0462",
+          "name": "阳光短毛",
+          "type": 5,
+          "value": 67,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0483",
+          "name": "菠萝作业时装",
+          "type": 100,
+          "value": 77,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0485",
+          "name": "仲夏夜森林精灵时装",
+          "type": 100,
+          "value": 97,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0494",
+          "name": "饼干魔女时装",
+          "type": 100,
+          "value": 123,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0504",
+          "name": "喵道夫时装",
+          "type": 100,
+          "value": 157,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0513",
+          "name": "春日精灵时装",
+          "type": 100,
+          "value": 219,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0516",
+          "name": "星光夜空礼服时装",
+          "type": 100,
+          "value": 222,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0515",
+          "name": "棉花糖乐团时装",
+          "type": 100,
+          "value": 221,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0512",
+          "name": "迷你草莓时装",
+          "type": 100,
+          "value": 218,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0519",
+          "name": "优雅的王室礼服时装",
+          "type": 100,
+          "value": 247,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0520",
+          "name": "吃瓜时刻时装",
+          "type": 100,
+          "value": 248,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0522",
+          "name": "活动体力",
+          "type": 24,
+          "value": 11,
+          "subType": 0,
+          "count": 22000
+        }
+      ],
+      "mails": [
+        [
+          {
+            "code": "RM0001",
+            "name": "体力",
+            "type": 0,
+            "value": 1,
+            "subType": 0,
+            "count": 30000
+          },
+          {
+            "code": "RM0002",
+            "name": "金币",
+            "type": 1,
+            "value": 1,
+            "subType": 0,
+            "count": 5000000
+          },
+          {
+            "code": "RM0003",
+            "name": "钻石",
+            "type": 2,
+            "value": 1,
+            "subType": 0,
+            "count": 2500000
+          }
+        ],
+        [
+          {
+            "code": "RM0006",
+            "name": "去广告",
+            "type": 100,
+            "value": 31,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0007",
+            "name": "成长基金",
+            "type": 100,
+            "value": 32,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0004",
+            "name": "新手通行证",
+            "type": 100,
+            "value": 9,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0008",
+            "name": "赛季通行证-白银",
+            "type": 100,
+            "value": 109,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0009",
+            "name": "赛季通行证-黄金",
+            "type": 100,
+            "value": 110,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0005",
+            "name": "3天通行证",
+            "type": 100,
+            "value": 30,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0010",
+            "name": "鱼形饼干",
+            "type": 16,
+            "value": 0,
+            "subType": 0,
+            "count": 800
+          },
+          {
+            "code": "RM0011",
+            "name": "小鱼干",
+            "type": 16,
+            "value": 1,
+            "subType": 0,
+            "count": 800
+          },
+          {
+            "code": "RM0012",
+            "name": "鱼丸",
+            "type": 16,
+            "value": 2,
+            "subType": 0,
+            "count": 800
+          }
+        ],
+        [
+          {
+            "code": "RM0013",
+            "name": "沙丁鱼布丁",
+            "type": 16,
+            "value": 3,
+            "subType": 0,
+            "count": 800
+          },
+          {
+            "code": "RM0014",
+            "name": "巨型鲫鱼饼",
+            "type": 16,
+            "value": 4,
+            "subType": 0,
+            "count": 800
+          },
+          {
+            "code": "RM0015",
+            "name": "时装兑换券",
+            "type": 21,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          }
+        ],
+        [
+          {
+            "code": "RM0016",
+            "name": "高级时装兑换券",
+            "type": 22,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0377",
+            "name": "猫咪探索券",
+            "type": 30,
+            "value": 1,
+            "subType": 0,
+            "count": 400
+          },
+          {
+            "code": "RM0378",
+            "name": "星星哨子",
+            "type": 26,
+            "value": 1,
+            "subType": 0,
+            "count": 400
+          }
+        ],
+        [
+          {
+            "code": "RM0379",
+            "name": "性格探索小镜子",
+            "type": 28,
+            "value": 1,
+            "subType": 0,
+            "count": 400
+          },
+          {
+            "code": "RM0380",
+            "name": "特质改写铅笔",
+            "type": 29,
+            "value": 1,
+            "subType": 0,
+            "count": 400
+          },
+          {
+            "code": "RM0381",
+            "name": "家具刷子",
+            "type": 35,
+            "value": 1,
+            "subType": 0,
+            "count": 4000
+          }
+        ],
+        [
+          {
+            "code": "RM0386",
+            "name": "星星小仙子",
+            "type": 20,
+            "value": 628,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0389",
+            "name": "毛茸茸奶油羊驼",
+            "type": 20,
+            "value": 677,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0395",
+            "name": "蝴蝶结小鹅",
+            "type": 20,
+            "value": 702,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0398",
+            "name": "魔法师杰克南瓜灯",
+            "type": 20,
+            "value": 734,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0413",
+            "name": "UFO",
+            "type": 20,
+            "value": 1006,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0464",
+            "name": "红枫林",
+            "type": 5,
+            "value": 1000,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0467",
+            "name": "焦糖布丁布偶猫",
+            "type": 5,
+            "value": 1003,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0470",
+            "name": "抹茶森林猫",
+            "type": 5,
+            "value": 1005,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0459",
+            "name": "彩虹短毛",
+            "type": 5,
+            "value": 61,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0463",
+            "name": "三叶草安哥拉",
+            "type": 5,
+            "value": 70,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0449",
+            "name": "金钟花波斯",
+            "type": 5,
+            "value": 38,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0462",
+            "name": "阳光短毛",
+            "type": 5,
+            "value": 67,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0483",
+            "name": "菠萝作业时装",
+            "type": 100,
+            "value": 77,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0485",
+            "name": "仲夏夜森林精灵时装",
+            "type": 100,
+            "value": 97,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0494",
+            "name": "饼干魔女时装",
+            "type": 100,
+            "value": 123,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0504",
+            "name": "喵道夫时装",
+            "type": 100,
+            "value": 157,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0513",
+            "name": "春日精灵时装",
+            "type": 100,
+            "value": 219,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0516",
+            "name": "星光夜空礼服时装",
+            "type": 100,
+            "value": 222,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0515",
+            "name": "棉花糖乐团时装",
+            "type": 100,
+            "value": 221,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0512",
+            "name": "迷你草莓时装",
+            "type": 100,
+            "value": 218,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0519",
+            "name": "优雅的王室礼服时装",
+            "type": 100,
+            "value": 247,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0520",
+            "name": "吃瓜时刻时装",
+            "type": 100,
+            "value": 248,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0522",
+            "name": "活动体力",
+            "type": 24,
+            "value": 11,
+            "subType": 0,
+            "count": 22000
+          }
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "buttonTitle": "套餐3",
+      "mailTitle": "待领取物品",
+      "rewards": [
+        {
+          "code": "RM0001",
+          "name": "体力",
+          "type": 0,
+          "value": 1,
+          "subType": 0,
+          "count": 50000
+        },
+        {
+          "code": "RM0002",
+          "name": "金币",
+          "type": 1,
+          "value": 1,
+          "subType": 0,
+          "count": 20000000
+        },
+        {
+          "code": "RM0003",
+          "name": "钻石",
+          "type": 2,
+          "value": 1,
+          "subType": 0,
+          "count": 3500000
+        },
+        {
+          "code": "RM0006",
+          "name": "去广告",
+          "type": 100,
+          "value": 31,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0007",
+          "name": "成长基金",
+          "type": 100,
+          "value": 32,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0004",
+          "name": "新手通行证",
+          "type": 100,
+          "value": 9,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0008",
+          "name": "赛季通行证-白银",
+          "type": 100,
+          "value": 109,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0009",
+          "name": "赛季通行证-黄金",
+          "type": 100,
+          "value": 110,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0005",
+          "name": "3天通行证",
+          "type": 100,
+          "value": 30,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0010",
+          "name": "鱼形饼干",
+          "type": 16,
+          "value": 0,
+          "subType": 0,
+          "count": 1000
+        },
+        {
+          "code": "RM0011",
+          "name": "小鱼干",
+          "type": 16,
+          "value": 1,
+          "subType": 0,
+          "count": 1000
+        },
+        {
+          "code": "RM0012",
+          "name": "鱼丸",
+          "type": 16,
+          "value": 2,
+          "subType": 0,
+          "count": 1000
+        },
+        {
+          "code": "RM0013",
+          "name": "沙丁鱼布丁",
+          "type": 16,
+          "value": 3,
+          "subType": 0,
+          "count": 1000
+        },
+        {
+          "code": "RM0014",
+          "name": "巨型鲫鱼饼",
+          "type": 16,
+          "value": 4,
+          "subType": 0,
+          "count": 1000
+        },
+        {
+          "code": "RM0015",
+          "name": "时装兑换券",
+          "type": 21,
+          "value": 1,
+          "subType": 0,
+          "count": 900
+        },
+        {
+          "code": "RM0016",
+          "name": "高级时装兑换券",
+          "type": 22,
+          "value": 1,
+          "subType": 0,
+          "count": 900
+        },
+        {
+          "code": "RM0377",
+          "name": "猫咪探索券",
+          "type": 30,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0378",
+          "name": "星星哨子",
+          "type": 26,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0379",
+          "name": "性格探索小镜子",
+          "type": 28,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0380",
+          "name": "特质改写铅笔",
+          "type": 29,
+          "value": 1,
+          "subType": 0,
+          "count": 500
+        },
+        {
+          "code": "RM0381",
+          "name": "家具刷子",
+          "type": 35,
+          "value": 1,
+          "subType": 0,
+          "count": 5000
+        },
+        {
+          "code": "RM0392",
+          "name": "红鼻子鲁道夫",
+          "type": 20,
+          "value": 690,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0386",
+          "name": "星星小仙子",
+          "type": 20,
+          "value": 628,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0391",
+          "name": "苏打海狗",
+          "type": 20,
+          "value": 712,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0402",
+          "name": "手铃叮铃铛锒松鼠",
+          "type": 20,
+          "value": 748,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0406",
+          "name": "跳舞的西红柿",
+          "type": 20,
+          "value": 778,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0413",
+          "name": "UFO",
+          "type": 20,
+          "value": 1006,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0416",
+          "name": "樱花蛋糕",
+          "type": 20,
+          "value": 1010,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0417",
+          "name": "樱花羊宝宝",
+          "type": 20,
+          "value": 768,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0420",
+          "name": "布丁鼠",
+          "type": 20,
+          "value": 608,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0422",
+          "name": "海豹",
+          "type": 20,
+          "value": 604,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0450",
+          "name": "云朵毛布",
+          "type": 5,
+          "value": 41,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0449",
+          "name": "金钟花波斯",
+          "type": 5,
+          "value": 38,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0448",
+          "name": "万圣短毛",
+          "type": 5,
+          "value": 36,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0463",
+          "name": "三叶草安哥拉",
+          "type": 5,
+          "value": 70,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0465",
+          "name": "热乎乎面包尾",
+          "type": 5,
+          "value": 1001,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0464",
+          "name": "红枫林",
+          "type": 5,
+          "value": 1000,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0467",
+          "name": "焦糖布丁布偶猫",
+          "type": 5,
+          "value": 1003,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0470",
+          "name": "抹茶森林猫",
+          "type": 5,
+          "value": 1005,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0469",
+          "name": "湄公河短尾猫",
+          "type": 5,
+          "value": 68,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0462",
+          "name": "阳光短毛",
+          "type": 5,
+          "value": 67,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0454",
+          "name": "暮夜短毛",
+          "type": 5,
+          "value": 51,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0457",
+          "name": "心愿星短毛",
+          "type": 5,
+          "value": 58,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0486",
+          "name": "圆滚滚的西瓜时装",
+          "type": 100,
+          "value": 98,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0487",
+          "name": "仲夏夜之夜精灵时装",
+          "type": 100,
+          "value": 99,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0488",
+          "name": "智慧星光制服",
+          "type": 100,
+          "value": 100,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0499",
+          "name": "松软又香甜时装",
+          "type": 100,
+          "value": 152,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0498",
+          "name": "邮差工作服时装",
+          "type": 100,
+          "value": 141,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0502",
+          "name": "小红喵的时装",
+          "type": 100,
+          "value": 155,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0504",
+          "name": "喵道夫时装",
+          "type": 100,
+          "value": 157,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0505",
+          "name": "圣诞限定皮肤",
+          "type": 100,
+          "value": 173,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0506",
+          "name": "蓝色圣歌队时装",
+          "type": 100,
+          "value": 174,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0515",
+          "name": "棉花糖乐团时装",
+          "type": 100,
+          "value": 221,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0521",
+          "name": "紫色游行时装",
+          "type": 100,
+          "value": 249,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0520",
+          "name": "吃瓜时刻时装",
+          "type": 100,
+          "value": 248,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0518",
+          "name": "蓝色星光西装时装",
+          "type": 100,
+          "value": 246,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0516",
+          "name": "星光夜空礼服时装",
+          "type": 100,
+          "value": 222,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0513",
+          "name": "春日精灵时装",
+          "type": 100,
+          "value": 219,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0512",
+          "name": "迷你草莓时装",
+          "type": 100,
+          "value": 218,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0511",
+          "name": "花粉精灵时装",
+          "type": 100,
+          "value": 217,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0503",
+          "name": "圣诞节时装",
+          "type": 100,
+          "value": 156,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0500",
+          "name": "财阀贵公子时装",
+          "type": 100,
+          "value": 153,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0490",
+          "name": "甜心樱桃时装",
+          "type": 100,
+          "value": 107,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0436",
+          "name": "孟买",
+          "type": 100,
+          "value": 34,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0437",
+          "name": "逞罗猫",
+          "type": 100,
+          "value": 35,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0438",
+          "name": "美国短毛",
+          "type": 100,
+          "value": 36,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0439",
+          "name": "波斯猫",
+          "type": 100,
+          "value": 37,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0440",
+          "name": "起司猫",
+          "type": 100,
+          "value": 38,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0441",
+          "name": "奶牛猫",
+          "type": 100,
+          "value": 39,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0442",
+          "name": "雪鞋",
+          "type": 100,
+          "value": 40,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0443",
+          "name": "异国短毛",
+          "type": 100,
+          "value": 41,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0444",
+          "name": "美国卷耳",
+          "type": 100,
+          "value": 42,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0445",
+          "name": "柯尼斯卷毛",
+          "type": 100,
+          "value": 43,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0522",
+          "name": "活动体力",
+          "type": 24,
+          "value": 11,
+          "subType": 0,
+          "count": 22000
+        }
+      ],
+      "mails": [
+        [
+          {
+            "code": "RM0001",
+            "name": "体力",
+            "type": 0,
+            "value": 1,
+            "subType": 0,
+            "count": 50000
+          },
+          {
+            "code": "RM0002",
+            "name": "金币",
+            "type": 1,
+            "value": 1,
+            "subType": 0,
+            "count": 20000000
+          },
+          {
+            "code": "RM0003",
+            "name": "钻石",
+            "type": 2,
+            "value": 1,
+            "subType": 0,
+            "count": 3500000
+          }
+        ],
+        [
+          {
+            "code": "RM0006",
+            "name": "去广告",
+            "type": 100,
+            "value": 31,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0007",
+            "name": "成长基金",
+            "type": 100,
+            "value": 32,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0004",
+            "name": "新手通行证",
+            "type": 100,
+            "value": 9,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0008",
+            "name": "赛季通行证-白银",
+            "type": 100,
+            "value": 109,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0009",
+            "name": "赛季通行证-黄金",
+            "type": 100,
+            "value": 110,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0005",
+            "name": "3天通行证",
+            "type": 100,
+            "value": 30,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0010",
+            "name": "鱼形饼干",
+            "type": 16,
+            "value": 0,
+            "subType": 0,
+            "count": 1000
+          },
+          {
+            "code": "RM0011",
+            "name": "小鱼干",
+            "type": 16,
+            "value": 1,
+            "subType": 0,
+            "count": 1000
+          },
+          {
+            "code": "RM0012",
+            "name": "鱼丸",
+            "type": 16,
+            "value": 2,
+            "subType": 0,
+            "count": 1000
+          }
+        ],
+        [
+          {
+            "code": "RM0013",
+            "name": "沙丁鱼布丁",
+            "type": 16,
+            "value": 3,
+            "subType": 0,
+            "count": 1000
+          },
+          {
+            "code": "RM0014",
+            "name": "巨型鲫鱼饼",
+            "type": 16,
+            "value": 4,
+            "subType": 0,
+            "count": 1000
+          },
+          {
+            "code": "RM0015",
+            "name": "时装兑换券",
+            "type": 21,
+            "value": 1,
+            "subType": 0,
+            "count": 900
+          }
+        ],
+        [
+          {
+            "code": "RM0016",
+            "name": "高级时装兑换券",
+            "type": 22,
+            "value": 1,
+            "subType": 0,
+            "count": 900
+          },
+          {
+            "code": "RM0377",
+            "name": "猫咪探索券",
+            "type": 30,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0378",
+            "name": "星星哨子",
+            "type": 26,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          }
+        ],
+        [
+          {
+            "code": "RM0379",
+            "name": "性格探索小镜子",
+            "type": 28,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0380",
+            "name": "特质改写铅笔",
+            "type": 29,
+            "value": 1,
+            "subType": 0,
+            "count": 500
+          },
+          {
+            "code": "RM0381",
+            "name": "家具刷子",
+            "type": 35,
+            "value": 1,
+            "subType": 0,
+            "count": 5000
+          }
+        ],
+        [
+          {
+            "code": "RM0392",
+            "name": "红鼻子鲁道夫",
+            "type": 20,
+            "value": 690,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0386",
+            "name": "星星小仙子",
+            "type": 20,
+            "value": 628,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0391",
+            "name": "苏打海狗",
+            "type": 20,
+            "value": 712,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0402",
+            "name": "手铃叮铃铛锒松鼠",
+            "type": 20,
+            "value": 748,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0406",
+            "name": "跳舞的西红柿",
+            "type": 20,
+            "value": 778,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0413",
+            "name": "UFO",
+            "type": 20,
+            "value": 1006,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0416",
+            "name": "樱花蛋糕",
+            "type": 20,
+            "value": 1010,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0417",
+            "name": "樱花羊宝宝",
+            "type": 20,
+            "value": 768,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0420",
+            "name": "布丁鼠",
+            "type": 20,
+            "value": 608,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0422",
+            "name": "海豹",
+            "type": 20,
+            "value": 604,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0450",
+            "name": "云朵毛布",
+            "type": 5,
+            "value": 41,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0449",
+            "name": "金钟花波斯",
+            "type": 5,
+            "value": 38,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0448",
+            "name": "万圣短毛",
+            "type": 5,
+            "value": 36,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0463",
+            "name": "三叶草安哥拉",
+            "type": 5,
+            "value": 70,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0465",
+            "name": "热乎乎面包尾",
+            "type": 5,
+            "value": 1001,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0464",
+            "name": "红枫林",
+            "type": 5,
+            "value": 1000,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0467",
+            "name": "焦糖布丁布偶猫",
+            "type": 5,
+            "value": 1003,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0470",
+            "name": "抹茶森林猫",
+            "type": 5,
+            "value": 1005,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0469",
+            "name": "湄公河短尾猫",
+            "type": 5,
+            "value": 68,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0462",
+            "name": "阳光短毛",
+            "type": 5,
+            "value": 67,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0454",
+            "name": "暮夜短毛",
+            "type": 5,
+            "value": 51,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0457",
+            "name": "心愿星短毛",
+            "type": 5,
+            "value": 58,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0486",
+            "name": "圆滚滚的西瓜时装",
+            "type": 100,
+            "value": 98,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0487",
+            "name": "仲夏夜之夜精灵时装",
+            "type": 100,
+            "value": 99,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0488",
+            "name": "智慧星光制服",
+            "type": 100,
+            "value": 100,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0499",
+            "name": "松软又香甜时装",
+            "type": 100,
+            "value": 152,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0498",
+            "name": "邮差工作服时装",
+            "type": 100,
+            "value": 141,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0502",
+            "name": "小红喵的时装",
+            "type": 100,
+            "value": 155,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0504",
+            "name": "喵道夫时装",
+            "type": 100,
+            "value": 157,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0505",
+            "name": "圣诞限定皮肤",
+            "type": 100,
+            "value": 173,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0506",
+            "name": "蓝色圣歌队时装",
+            "type": 100,
+            "value": 174,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0515",
+            "name": "棉花糖乐团时装",
+            "type": 100,
+            "value": 221,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0521",
+            "name": "紫色游行时装",
+            "type": 100,
+            "value": 249,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0520",
+            "name": "吃瓜时刻时装",
+            "type": 100,
+            "value": 248,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0518",
+            "name": "蓝色星光西装时装",
+            "type": 100,
+            "value": 246,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0516",
+            "name": "星光夜空礼服时装",
+            "type": 100,
+            "value": 222,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0513",
+            "name": "春日精灵时装",
+            "type": 100,
+            "value": 219,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0512",
+            "name": "迷你草莓时装",
+            "type": 100,
+            "value": 218,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0511",
+            "name": "花粉精灵时装",
+            "type": 100,
+            "value": 217,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0503",
+            "name": "圣诞节时装",
+            "type": 100,
+            "value": 156,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0500",
+            "name": "财阀贵公子时装",
+            "type": 100,
+            "value": 153,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0490",
+            "name": "甜心樱桃时装",
+            "type": 100,
+            "value": 107,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0436",
+            "name": "孟买",
+            "type": 100,
+            "value": 34,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0437",
+            "name": "逞罗猫",
+            "type": 100,
+            "value": 35,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0438",
+            "name": "美国短毛",
+            "type": 100,
+            "value": 36,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0439",
+            "name": "波斯猫",
+            "type": 100,
+            "value": 37,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0440",
+            "name": "起司猫",
+            "type": 100,
+            "value": 38,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0441",
+            "name": "奶牛猫",
+            "type": 100,
+            "value": 39,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0442",
+            "name": "雪鞋",
+            "type": 100,
+            "value": 40,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0443",
+            "name": "异国短毛",
+            "type": 100,
+            "value": 41,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0444",
+            "name": "美国卷耳",
+            "type": 100,
+            "value": 42,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0445",
+            "name": "柯尼斯卷毛",
+            "type": 100,
+            "value": 43,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0522",
+            "name": "活动体力",
+            "type": 24,
+            "value": 11,
+            "subType": 0,
+            "count": 22000
+          }
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "buttonTitle": "套餐4",
+      "mailTitle": "待领取物品",
+      "rewards": [
+        {
+          "code": "RM0001",
+          "name": "体力",
+          "type": 0,
+          "value": 1,
+          "subType": 0,
+          "count": 100000
+        },
+        {
+          "code": "RM0002",
+          "name": "金币",
+          "type": 1,
+          "value": 1,
+          "subType": 0,
+          "count": 35000000
+        },
+        {
+          "code": "RM0003",
+          "name": "钻石",
+          "type": 2,
+          "value": 1,
+          "subType": 0,
+          "count": 5000000
+        },
+        {
+          "code": "RM0006",
+          "name": "去广告",
+          "type": 100,
+          "value": 31,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0007",
+          "name": "成长基金",
+          "type": 100,
+          "value": 32,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0004",
+          "name": "新手通行证",
+          "type": 100,
+          "value": 9,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0008",
+          "name": "赛季通行证-白银",
+          "type": 100,
+          "value": 109,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0009",
+          "name": "赛季通行证-黄金",
+          "type": 100,
+          "value": 110,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0005",
+          "name": "3天通行证",
+          "type": 100,
+          "value": 30,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0010",
+          "name": "鱼形饼干",
+          "type": 16,
+          "value": 0,
+          "subType": 0,
+          "count": 3500
+        },
+        {
+          "code": "RM0011",
+          "name": "小鱼干",
+          "type": 16,
+          "value": 1,
+          "subType": 0,
+          "count": 3500
+        },
+        {
+          "code": "RM0012",
+          "name": "鱼丸",
+          "type": 16,
+          "value": 2,
+          "subType": 0,
+          "count": 3500
+        },
+        {
+          "code": "RM0013",
+          "name": "沙丁鱼布丁",
+          "type": 16,
+          "value": 3,
+          "subType": 0,
+          "count": 3500
+        },
+        {
+          "code": "RM0014",
+          "name": "巨型鲫鱼饼",
+          "type": 16,
+          "value": 4,
+          "subType": 0,
+          "count": 3500
+        },
+        {
+          "code": "RM0015",
+          "name": "时装兑换券",
+          "type": 21,
+          "value": 1,
+          "subType": 0,
+          "count": 3000
+        },
+        {
+          "code": "RM0016",
+          "name": "高级时装兑换券",
+          "type": 22,
+          "value": 1,
+          "subType": 0,
+          "count": 3000
+        },
+        {
+          "code": "RM0377",
+          "name": "猫咪探索券",
+          "type": 30,
+          "value": 1,
+          "subType": 0,
+          "count": 2500
+        },
+        {
+          "code": "RM0378",
+          "name": "星星哨子",
+          "type": 26,
+          "value": 1,
+          "subType": 0,
+          "count": 2500
+        },
+        {
+          "code": "RM0379",
+          "name": "性格探索小镜子",
+          "type": 28,
+          "value": 1,
+          "subType": 0,
+          "count": 1500
+        },
+        {
+          "code": "RM0380",
+          "name": "特质改写铅笔",
+          "type": 29,
+          "value": 1,
+          "subType": 0,
+          "count": 1500
+        },
+        {
+          "code": "RM0381",
+          "name": "家具刷子",
+          "type": 35,
+          "value": 1,
+          "subType": 0,
+          "count": 10000
+        },
+        {
+          "code": "RM0382",
+          "name": "刺猬",
+          "type": 20,
+          "value": 601,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0383",
+          "name": "红萝卜兔子",
+          "type": 20,
+          "value": 602,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0384",
+          "name": "我是外卖员",
+          "type": 20,
+          "value": 605,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0385",
+          "name": "绒鼠",
+          "type": 20,
+          "value": 621,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0386",
+          "name": "星星小仙子",
+          "type": 20,
+          "value": 628,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0387",
+          "name": "沙滩球小鸡",
+          "type": 20,
+          "value": 647,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0388",
+          "name": "巨嘴鸟",
+          "type": 20,
+          "value": 673,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0389",
+          "name": "毛茸茸奶油羊驼",
+          "type": 20,
+          "value": 677,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0390",
+          "name": "魔法扫帚",
+          "type": 20,
+          "value": 682,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0391",
+          "name": "苏打海狗",
+          "type": 20,
+          "value": 712,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0392",
+          "name": "红鼻子鲁道夫",
+          "type": 20,
+          "value": 690,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0393",
+          "name": "圆滚滚曼德拉草",
+          "type": 20,
+          "value": 700,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0394",
+          "name": "细长的曼德拉草",
+          "type": 20,
+          "value": 701,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0395",
+          "name": "蝴蝶结小鹅",
+          "type": 20,
+          "value": 702,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0396",
+          "name": "宇宙飞行员企鹅",
+          "type": 20,
+          "value": 720,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0397",
+          "name": "伊犁鼠兔",
+          "type": 20,
+          "value": 730,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0398",
+          "name": "魔法师杰克南瓜灯",
+          "type": 20,
+          "value": 734,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0399",
+          "name": "破破烂烂的缝纫",
+          "type": 20,
+          "value": 735,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0400",
+          "name": "破破烂烂的拼接",
+          "type": 20,
+          "value": 736,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0401",
+          "name": "工房助手乌鸦",
+          "type": 20,
+          "value": 738,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0402",
+          "name": "手铃叮铃铛锒松鼠",
+          "type": 20,
+          "value": 748,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0403",
+          "name": "雪花精灵",
+          "type": 20,
+          "value": 749,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0404",
+          "name": "鹰狮宝宝",
+          "type": 20,
+          "value": 752,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0405",
+          "name": "工工整整中性笔",
+          "type": 20,
+          "value": 776,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0406",
+          "name": "跳舞的西红柿",
+          "type": 20,
+          "value": 778,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0407",
+          "name": "喵龙",
+          "type": 20,
+          "value": 1000,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0408",
+          "name": "跳舞镜球",
+          "type": 20,
+          "value": 1001,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0409",
+          "name": "皮塔纳",
+          "type": 20,
+          "value": 1002,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0410",
+          "name": "樱桃搭档",
+          "type": 20,
+          "value": 1003,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0411",
+          "name": "小玉米宝宝",
+          "type": 20,
+          "value": 1004,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0412",
+          "name": "嘻嘻蝙蝠幽灵",
+          "type": 20,
+          "value": 1005,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0413",
+          "name": "UFO",
+          "type": 20,
+          "value": 1006,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0414",
+          "name": "巴普洛小狗汪汪",
+          "type": 20,
+          "value": 1007,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0415",
+          "name": "长鼻茶壶",
+          "type": 20,
+          "value": 1008,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0416",
+          "name": "樱花蛋糕",
+          "type": 20,
+          "value": 1010,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0417",
+          "name": "樱花羊宝宝",
+          "type": 20,
+          "value": 768,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0418",
+          "name": "樱花兔子",
+          "type": 20,
+          "value": 761,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0419",
+          "name": "许愿星",
+          "type": 20,
+          "value": 708,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0420",
+          "name": "布丁鼠",
+          "type": 20,
+          "value": 608,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0421",
+          "name": "老虎宝宝",
+          "type": 20,
+          "value": 603,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0422",
+          "name": "海豹",
+          "type": 20,
+          "value": 604,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0423",
+          "name": "海蜗牛",
+          "type": 20,
+          "value": 612,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0424",
+          "name": "小可爱章鱼",
+          "type": 20,
+          "value": 613,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0425",
+          "name": "四方蜜蜂",
+          "type": 20,
+          "value": 614,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0426",
+          "name": "熊",
+          "type": 20,
+          "value": 615,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0427",
+          "name": "赤柴",
+          "type": 20,
+          "value": 616,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0428",
+          "name": "乌龟哈密瓜面包",
+          "type": 20,
+          "value": 618,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0429",
+          "name": "薄荷浣熊",
+          "type": 20,
+          "value": 620,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0430",
+          "name": "吐司熊",
+          "type": 20,
+          "value": 607,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0431",
+          "name": "小丑鱼玩具",
+          "type": 20,
+          "value": 668,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0432",
+          "name": "熊蜂",
+          "type": 20,
+          "value": 1009,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0433",
+          "name": "苹果味青蛙",
+          "type": 20,
+          "value": 664,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0434",
+          "name": "鸡尾酒兔子",
+          "type": 20,
+          "value": 799,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0435",
+          "name": "鲶鱼喵",
+          "type": 20,
+          "value": 1011,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0436",
+          "name": "孟买",
+          "type": 100,
+          "value": 34,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0437",
+          "name": "逞罗猫",
+          "type": 100,
+          "value": 35,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0438",
+          "name": "美国短毛",
+          "type": 100,
+          "value": 36,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0439",
+          "name": "波斯猫",
+          "type": 100,
+          "value": 37,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0440",
+          "name": "起司猫",
+          "type": 100,
+          "value": 38,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0441",
+          "name": "奶牛猫",
+          "type": 100,
+          "value": 39,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0442",
+          "name": "雪鞋",
+          "type": 100,
+          "value": 40,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0443",
+          "name": "异国短毛",
+          "type": 100,
+          "value": 41,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0444",
+          "name": "美国卷耳",
+          "type": 100,
+          "value": 42,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0445",
+          "name": "柯尼斯卷毛",
+          "type": 100,
+          "value": 43,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0446",
+          "name": "美国短尾",
+          "type": 100,
+          "value": 44,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0447",
+          "name": "北美洲短毛",
+          "type": 100,
+          "value": 45,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0448",
+          "name": "万圣短毛",
+          "type": 5,
+          "value": 36,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0449",
+          "name": "金钟花波斯",
+          "type": 5,
+          "value": 38,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0450",
+          "name": "云朵毛布",
+          "type": 5,
+          "value": 41,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0451",
+          "name": "粉紫短毛",
+          "type": 5,
+          "value": 44,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0452",
+          "name": "闪耀月夜天",
+          "type": 5,
+          "value": 46,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0453",
+          "name": "绿星布偶",
+          "type": 5,
+          "value": 48,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0454",
+          "name": "暮夜短毛",
+          "type": 5,
+          "value": 51,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0455",
+          "name": "异色",
+          "type": 5,
+          "value": 52,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0456",
+          "name": "春晨安格拉",
+          "type": 5,
+          "value": 56,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0457",
+          "name": "心愿星短毛",
+          "type": 5,
+          "value": 58,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0458",
+          "name": "闪耀朝阳天",
+          "type": 5,
+          "value": 60,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0459",
+          "name": "彩虹短毛",
+          "type": 5,
+          "value": 61,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0460",
+          "name": "暮光安哥拉",
+          "type": 5,
+          "value": 63,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0461",
+          "name": "玩具虎",
+          "type": 5,
+          "value": 64,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0462",
+          "name": "阳光短毛",
+          "type": 5,
+          "value": 67,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0463",
+          "name": "三叶草安哥拉",
+          "type": 5,
+          "value": 70,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0464",
+          "name": "红枫林",
+          "type": 5,
+          "value": 1000,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0465",
+          "name": "热乎乎面包尾",
+          "type": 5,
+          "value": 1001,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0466",
+          "name": "草莓曼岛猫",
+          "type": 5,
+          "value": 1002,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0467",
+          "name": "焦糖布丁布偶猫",
+          "type": 5,
+          "value": 1003,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0468",
+          "name": "三色拿铁",
+          "type": 5,
+          "value": 1004,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0469",
+          "name": "湄公河短尾猫",
+          "type": 5,
+          "value": 68,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0470",
+          "name": "抹茶森林猫",
+          "type": 5,
+          "value": 1005,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0471",
+          "name": "小星光巫师套装时装",
+          "type": 100,
+          "value": 24,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0472",
+          "name": "园丁的服装礼包时装",
+          "type": 100,
+          "value": 25,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0473",
+          "name": "薰衣草时装礼包时装",
+          "type": 100,
+          "value": 51,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0474",
+          "name": "幸福新婚时装礼包时装",
+          "type": 100,
+          "value": 52,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0475",
+          "name": "端庄仆人时装",
+          "type": 100,
+          "value": 53,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0476",
+          "name": "聪明书记官服装礼包时装",
+          "type": 100,
+          "value": 54,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0477",
+          "name": "星之精灵时装",
+          "type": 100,
+          "value": 61,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0478",
+          "name": "女公子与骑士时装",
+          "type": 100,
+          "value": 62,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0479",
+          "name": "火烈鸟泳圈时装",
+          "type": 100,
+          "value": 63,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0480",
+          "name": "小黄鸭泳圈时装",
+          "type": 100,
+          "value": 64,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0481",
+          "name": "艳粉色泳装时装",
+          "type": 100,
+          "value": 75,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0482",
+          "name": "薄荷绿色泳装时装",
+          "type": 100,
+          "value": 76,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0483",
+          "name": "菠萝作业时装",
+          "type": 100,
+          "value": 77,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0484",
+          "name": "葡萄之神时装",
+          "type": 100,
+          "value": 78,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0485",
+          "name": "仲夏夜森林精灵时装",
+          "type": 100,
+          "value": 97,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0486",
+          "name": "圆滚滚的西瓜时装",
+          "type": 100,
+          "value": 98,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0487",
+          "name": "仲夏夜之夜精灵时装",
+          "type": 100,
+          "value": 99,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0488",
+          "name": "智慧星光制服",
+          "type": 100,
+          "value": 100,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0489",
+          "name": "魔法工坊时装",
+          "type": 100,
+          "value": 106,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0490",
+          "name": "甜心樱桃时装",
+          "type": 100,
+          "value": 107,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0491",
+          "name": "魔法学校时装",
+          "type": 100,
+          "value": 120,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0492",
+          "name": "星光魔法师时装",
+          "type": 100,
+          "value": 121,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0493",
+          "name": "薄荷巧克力时装",
+          "type": 100,
+          "value": 122,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0494",
+          "name": "饼干魔女时装",
+          "type": 100,
+          "value": 123,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0495",
+          "name": "童话妹妹时装",
+          "type": 100,
+          "value": 138,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0496",
+          "name": "死神时装",
+          "type": 100,
+          "value": 139,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0497",
+          "name": "绿色图书管理员时装",
+          "type": 100,
+          "value": 140,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0498",
+          "name": "邮差工作服时装",
+          "type": 100,
+          "value": 141,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0499",
+          "name": "松软又香甜时装",
+          "type": 100,
+          "value": 152,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0500",
+          "name": "财阀贵公子时装",
+          "type": 100,
+          "value": 153,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0501",
+          "name": "圣诞工匠时装",
+          "type": 100,
+          "value": 154,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0502",
+          "name": "小红喵的时装",
+          "type": 100,
+          "value": 155,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0503",
+          "name": "圣诞节时装",
+          "type": 100,
+          "value": 156,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0504",
+          "name": "喵道夫时装",
+          "type": 100,
+          "value": 157,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0505",
+          "name": "圣诞限定皮肤",
+          "type": 100,
+          "value": 173,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0506",
+          "name": "蓝色圣歌队时装",
+          "type": 100,
+          "value": 174,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0507",
+          "name": "蓝色圣歌队时装",
+          "type": 100,
+          "value": 175,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0508",
+          "name": "淡粉红色圣诞时装",
+          "type": 100,
+          "value": 176,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0509",
+          "name": "雪花精灵时装",
+          "type": 100,
+          "value": 177,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0510",
+          "name": "刹那的星光时装",
+          "type": 100,
+          "value": 178,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0511",
+          "name": "花粉精灵时装",
+          "type": 100,
+          "value": 217,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0512",
+          "name": "迷你草莓时装",
+          "type": 100,
+          "value": 218,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0513",
+          "name": "春日精灵时装",
+          "type": 100,
+          "value": 219,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0514",
+          "name": "蝴蝶精灵时装",
+          "type": 100,
+          "value": 220,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0515",
+          "name": "棉花糖乐团时装",
+          "type": 100,
+          "value": 221,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0516",
+          "name": "星光夜空礼服时装",
+          "type": 100,
+          "value": 222,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0517",
+          "name": "神秘魔女时装",
+          "type": 100,
+          "value": 245,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0518",
+          "name": "蓝色星光西装时装",
+          "type": 100,
+          "value": 246,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0519",
+          "name": "优雅的王室礼服时装",
+          "type": 100,
+          "value": 247,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0520",
+          "name": "吃瓜时刻时装",
+          "type": 100,
+          "value": 248,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0521",
+          "name": "紫色游行时装",
+          "type": 100,
+          "value": 249,
+          "subType": 0,
+          "count": 1
+        },
+        {
+          "code": "RM0522",
+          "name": "活动体力",
+          "type": 24,
+          "value": 11,
+          "subType": 0,
+          "count": 22000
+        }
+      ],
+      "mails": [
+        [
+          {
+            "code": "RM0001",
+            "name": "体力",
+            "type": 0,
+            "value": 1,
+            "subType": 0,
+            "count": 100000
+          },
+          {
+            "code": "RM0002",
+            "name": "金币",
+            "type": 1,
+            "value": 1,
+            "subType": 0,
+            "count": 35000000
+          },
+          {
+            "code": "RM0003",
+            "name": "钻石",
+            "type": 2,
+            "value": 1,
+            "subType": 0,
+            "count": 5000000
+          }
+        ],
+        [
+          {
+            "code": "RM0006",
+            "name": "去广告",
+            "type": 100,
+            "value": 31,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0007",
+            "name": "成长基金",
+            "type": 100,
+            "value": 32,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0004",
+            "name": "新手通行证",
+            "type": 100,
+            "value": 9,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0008",
+            "name": "赛季通行证-白银",
+            "type": 100,
+            "value": 109,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0009",
+            "name": "赛季通行证-黄金",
+            "type": 100,
+            "value": 110,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0005",
+            "name": "3天通行证",
+            "type": 100,
+            "value": 30,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0010",
+            "name": "鱼形饼干",
+            "type": 16,
+            "value": 0,
+            "subType": 0,
+            "count": 3500
+          },
+          {
+            "code": "RM0011",
+            "name": "小鱼干",
+            "type": 16,
+            "value": 1,
+            "subType": 0,
+            "count": 3500
+          },
+          {
+            "code": "RM0012",
+            "name": "鱼丸",
+            "type": 16,
+            "value": 2,
+            "subType": 0,
+            "count": 3500
+          }
+        ],
+        [
+          {
+            "code": "RM0013",
+            "name": "沙丁鱼布丁",
+            "type": 16,
+            "value": 3,
+            "subType": 0,
+            "count": 3500
+          },
+          {
+            "code": "RM0014",
+            "name": "巨型鲫鱼饼",
+            "type": 16,
+            "value": 4,
+            "subType": 0,
+            "count": 3500
+          },
+          {
+            "code": "RM0015",
+            "name": "时装兑换券",
+            "type": 21,
+            "value": 1,
+            "subType": 0,
+            "count": 3000
+          }
+        ],
+        [
+          {
+            "code": "RM0016",
+            "name": "高级时装兑换券",
+            "type": 22,
+            "value": 1,
+            "subType": 0,
+            "count": 3000
+          },
+          {
+            "code": "RM0377",
+            "name": "猫咪探索券",
+            "type": 30,
+            "value": 1,
+            "subType": 0,
+            "count": 2500
+          },
+          {
+            "code": "RM0378",
+            "name": "星星哨子",
+            "type": 26,
+            "value": 1,
+            "subType": 0,
+            "count": 2500
+          }
+        ],
+        [
+          {
+            "code": "RM0379",
+            "name": "性格探索小镜子",
+            "type": 28,
+            "value": 1,
+            "subType": 0,
+            "count": 1500
+          },
+          {
+            "code": "RM0380",
+            "name": "特质改写铅笔",
+            "type": 29,
+            "value": 1,
+            "subType": 0,
+            "count": 1500
+          },
+          {
+            "code": "RM0381",
+            "name": "家具刷子",
+            "type": 35,
+            "value": 1,
+            "subType": 0,
+            "count": 10000
+          }
+        ],
+        [
+          {
+            "code": "RM0382",
+            "name": "刺猬",
+            "type": 20,
+            "value": 601,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0383",
+            "name": "红萝卜兔子",
+            "type": 20,
+            "value": 602,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0384",
+            "name": "我是外卖员",
+            "type": 20,
+            "value": 605,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0385",
+            "name": "绒鼠",
+            "type": 20,
+            "value": 621,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0386",
+            "name": "星星小仙子",
+            "type": 20,
+            "value": 628,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0387",
+            "name": "沙滩球小鸡",
+            "type": 20,
+            "value": 647,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0388",
+            "name": "巨嘴鸟",
+            "type": 20,
+            "value": 673,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0389",
+            "name": "毛茸茸奶油羊驼",
+            "type": 20,
+            "value": 677,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0390",
+            "name": "魔法扫帚",
+            "type": 20,
+            "value": 682,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0391",
+            "name": "苏打海狗",
+            "type": 20,
+            "value": 712,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0392",
+            "name": "红鼻子鲁道夫",
+            "type": 20,
+            "value": 690,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0393",
+            "name": "圆滚滚曼德拉草",
+            "type": 20,
+            "value": 700,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0394",
+            "name": "细长的曼德拉草",
+            "type": 20,
+            "value": 701,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0395",
+            "name": "蝴蝶结小鹅",
+            "type": 20,
+            "value": 702,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0396",
+            "name": "宇宙飞行员企鹅",
+            "type": 20,
+            "value": 720,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0397",
+            "name": "伊犁鼠兔",
+            "type": 20,
+            "value": 730,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0398",
+            "name": "魔法师杰克南瓜灯",
+            "type": 20,
+            "value": 734,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0399",
+            "name": "破破烂烂的缝纫",
+            "type": 20,
+            "value": 735,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0400",
+            "name": "破破烂烂的拼接",
+            "type": 20,
+            "value": 736,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0401",
+            "name": "工房助手乌鸦",
+            "type": 20,
+            "value": 738,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0402",
+            "name": "手铃叮铃铛锒松鼠",
+            "type": 20,
+            "value": 748,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0403",
+            "name": "雪花精灵",
+            "type": 20,
+            "value": 749,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0404",
+            "name": "鹰狮宝宝",
+            "type": 20,
+            "value": 752,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0405",
+            "name": "工工整整中性笔",
+            "type": 20,
+            "value": 776,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0406",
+            "name": "跳舞的西红柿",
+            "type": 20,
+            "value": 778,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0407",
+            "name": "喵龙",
+            "type": 20,
+            "value": 1000,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0408",
+            "name": "跳舞镜球",
+            "type": 20,
+            "value": 1001,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0409",
+            "name": "皮塔纳",
+            "type": 20,
+            "value": 1002,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0410",
+            "name": "樱桃搭档",
+            "type": 20,
+            "value": 1003,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0411",
+            "name": "小玉米宝宝",
+            "type": 20,
+            "value": 1004,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0412",
+            "name": "嘻嘻蝙蝠幽灵",
+            "type": 20,
+            "value": 1005,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0413",
+            "name": "UFO",
+            "type": 20,
+            "value": 1006,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0414",
+            "name": "巴普洛小狗汪汪",
+            "type": 20,
+            "value": 1007,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0415",
+            "name": "长鼻茶壶",
+            "type": 20,
+            "value": 1008,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0416",
+            "name": "樱花蛋糕",
+            "type": 20,
+            "value": 1010,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0417",
+            "name": "樱花羊宝宝",
+            "type": 20,
+            "value": 768,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0418",
+            "name": "樱花兔子",
+            "type": 20,
+            "value": 761,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0419",
+            "name": "许愿星",
+            "type": 20,
+            "value": 708,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0420",
+            "name": "布丁鼠",
+            "type": 20,
+            "value": 608,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0421",
+            "name": "老虎宝宝",
+            "type": 20,
+            "value": 603,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0422",
+            "name": "海豹",
+            "type": 20,
+            "value": 604,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0423",
+            "name": "海蜗牛",
+            "type": 20,
+            "value": 612,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0424",
+            "name": "小可爱章鱼",
+            "type": 20,
+            "value": 613,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0425",
+            "name": "四方蜜蜂",
+            "type": 20,
+            "value": 614,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0426",
+            "name": "熊",
+            "type": 20,
+            "value": 615,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0427",
+            "name": "赤柴",
+            "type": 20,
+            "value": 616,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0428",
+            "name": "乌龟哈密瓜面包",
+            "type": 20,
+            "value": 618,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0429",
+            "name": "薄荷浣熊",
+            "type": 20,
+            "value": 620,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0430",
+            "name": "吐司熊",
+            "type": 20,
+            "value": 607,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0431",
+            "name": "小丑鱼玩具",
+            "type": 20,
+            "value": 668,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0432",
+            "name": "熊蜂",
+            "type": 20,
+            "value": 1009,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0433",
+            "name": "苹果味青蛙",
+            "type": 20,
+            "value": 664,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0434",
+            "name": "鸡尾酒兔子",
+            "type": 20,
+            "value": 799,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0435",
+            "name": "鲶鱼喵",
+            "type": 20,
+            "value": 1011,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0436",
+            "name": "孟买",
+            "type": 100,
+            "value": 34,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0437",
+            "name": "逞罗猫",
+            "type": 100,
+            "value": 35,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0438",
+            "name": "美国短毛",
+            "type": 100,
+            "value": 36,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0439",
+            "name": "波斯猫",
+            "type": 100,
+            "value": 37,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0440",
+            "name": "起司猫",
+            "type": 100,
+            "value": 38,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0441",
+            "name": "奶牛猫",
+            "type": 100,
+            "value": 39,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0442",
+            "name": "雪鞋",
+            "type": 100,
+            "value": 40,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0443",
+            "name": "异国短毛",
+            "type": 100,
+            "value": 41,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0444",
+            "name": "美国卷耳",
+            "type": 100,
+            "value": 42,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0445",
+            "name": "柯尼斯卷毛",
+            "type": 100,
+            "value": 43,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0446",
+            "name": "美国短尾",
+            "type": 100,
+            "value": 44,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0447",
+            "name": "北美洲短毛",
+            "type": 100,
+            "value": 45,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0448",
+            "name": "万圣短毛",
+            "type": 5,
+            "value": 36,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0449",
+            "name": "金钟花波斯",
+            "type": 5,
+            "value": 38,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0450",
+            "name": "云朵毛布",
+            "type": 5,
+            "value": 41,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0451",
+            "name": "粉紫短毛",
+            "type": 5,
+            "value": 44,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0452",
+            "name": "闪耀月夜天",
+            "type": 5,
+            "value": 46,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0453",
+            "name": "绿星布偶",
+            "type": 5,
+            "value": 48,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0454",
+            "name": "暮夜短毛",
+            "type": 5,
+            "value": 51,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0455",
+            "name": "异色",
+            "type": 5,
+            "value": 52,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0456",
+            "name": "春晨安格拉",
+            "type": 5,
+            "value": 56,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0457",
+            "name": "心愿星短毛",
+            "type": 5,
+            "value": 58,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0458",
+            "name": "闪耀朝阳天",
+            "type": 5,
+            "value": 60,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0459",
+            "name": "彩虹短毛",
+            "type": 5,
+            "value": 61,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0460",
+            "name": "暮光安哥拉",
+            "type": 5,
+            "value": 63,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0461",
+            "name": "玩具虎",
+            "type": 5,
+            "value": 64,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0462",
+            "name": "阳光短毛",
+            "type": 5,
+            "value": 67,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0463",
+            "name": "三叶草安哥拉",
+            "type": 5,
+            "value": 70,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0464",
+            "name": "红枫林",
+            "type": 5,
+            "value": 1000,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0465",
+            "name": "热乎乎面包尾",
+            "type": 5,
+            "value": 1001,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0466",
+            "name": "草莓曼岛猫",
+            "type": 5,
+            "value": 1002,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0467",
+            "name": "焦糖布丁布偶猫",
+            "type": 5,
+            "value": 1003,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0468",
+            "name": "三色拿铁",
+            "type": 5,
+            "value": 1004,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0469",
+            "name": "湄公河短尾猫",
+            "type": 5,
+            "value": 68,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0470",
+            "name": "抹茶森林猫",
+            "type": 5,
+            "value": 1005,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0471",
+            "name": "小星光巫师套装时装",
+            "type": 100,
+            "value": 24,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0472",
+            "name": "园丁的服装礼包时装",
+            "type": 100,
+            "value": 25,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0473",
+            "name": "薰衣草时装礼包时装",
+            "type": 100,
+            "value": 51,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0474",
+            "name": "幸福新婚时装礼包时装",
+            "type": 100,
+            "value": 52,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0475",
+            "name": "端庄仆人时装",
+            "type": 100,
+            "value": 53,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0476",
+            "name": "聪明书记官服装礼包时装",
+            "type": 100,
+            "value": 54,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0477",
+            "name": "星之精灵时装",
+            "type": 100,
+            "value": 61,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0478",
+            "name": "女公子与骑士时装",
+            "type": 100,
+            "value": 62,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0479",
+            "name": "火烈鸟泳圈时装",
+            "type": 100,
+            "value": 63,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0480",
+            "name": "小黄鸭泳圈时装",
+            "type": 100,
+            "value": 64,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0481",
+            "name": "艳粉色泳装时装",
+            "type": 100,
+            "value": 75,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0482",
+            "name": "薄荷绿色泳装时装",
+            "type": 100,
+            "value": 76,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0483",
+            "name": "菠萝作业时装",
+            "type": 100,
+            "value": 77,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0484",
+            "name": "葡萄之神时装",
+            "type": 100,
+            "value": 78,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0485",
+            "name": "仲夏夜森林精灵时装",
+            "type": 100,
+            "value": 97,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0486",
+            "name": "圆滚滚的西瓜时装",
+            "type": 100,
+            "value": 98,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0487",
+            "name": "仲夏夜之夜精灵时装",
+            "type": 100,
+            "value": 99,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0488",
+            "name": "智慧星光制服",
+            "type": 100,
+            "value": 100,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0489",
+            "name": "魔法工坊时装",
+            "type": 100,
+            "value": 106,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0490",
+            "name": "甜心樱桃时装",
+            "type": 100,
+            "value": 107,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0491",
+            "name": "魔法学校时装",
+            "type": 100,
+            "value": 120,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0492",
+            "name": "星光魔法师时装",
+            "type": 100,
+            "value": 121,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0493",
+            "name": "薄荷巧克力时装",
+            "type": 100,
+            "value": 122,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0494",
+            "name": "饼干魔女时装",
+            "type": 100,
+            "value": 123,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0495",
+            "name": "童话妹妹时装",
+            "type": 100,
+            "value": 138,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0496",
+            "name": "死神时装",
+            "type": 100,
+            "value": 139,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0497",
+            "name": "绿色图书管理员时装",
+            "type": 100,
+            "value": 140,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0498",
+            "name": "邮差工作服时装",
+            "type": 100,
+            "value": 141,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0499",
+            "name": "松软又香甜时装",
+            "type": 100,
+            "value": 152,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0500",
+            "name": "财阀贵公子时装",
+            "type": 100,
+            "value": 153,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0501",
+            "name": "圣诞工匠时装",
+            "type": 100,
+            "value": 154,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0502",
+            "name": "小红喵的时装",
+            "type": 100,
+            "value": 155,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0503",
+            "name": "圣诞节时装",
+            "type": 100,
+            "value": 156,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0504",
+            "name": "喵道夫时装",
+            "type": 100,
+            "value": 157,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0505",
+            "name": "圣诞限定皮肤",
+            "type": 100,
+            "value": 173,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0506",
+            "name": "蓝色圣歌队时装",
+            "type": 100,
+            "value": 174,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0507",
+            "name": "蓝色圣歌队时装",
+            "type": 100,
+            "value": 175,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0508",
+            "name": "淡粉红色圣诞时装",
+            "type": 100,
+            "value": 176,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0509",
+            "name": "雪花精灵时装",
+            "type": 100,
+            "value": 177,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0510",
+            "name": "刹那的星光时装",
+            "type": 100,
+            "value": 178,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0511",
+            "name": "花粉精灵时装",
+            "type": 100,
+            "value": 217,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0512",
+            "name": "迷你草莓时装",
+            "type": 100,
+            "value": 218,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0513",
+            "name": "春日精灵时装",
+            "type": 100,
+            "value": 219,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0514",
+            "name": "蝴蝶精灵时装",
+            "type": 100,
+            "value": 220,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0515",
+            "name": "棉花糖乐团时装",
+            "type": 100,
+            "value": 221,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0516",
+            "name": "星光夜空礼服时装",
+            "type": 100,
+            "value": 222,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0517",
+            "name": "神秘魔女时装",
+            "type": 100,
+            "value": 245,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0518",
+            "name": "蓝色星光西装时装",
+            "type": 100,
+            "value": 246,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0519",
+            "name": "优雅的王室礼服时装",
+            "type": 100,
+            "value": 247,
+            "subType": 0,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "code": "RM0520",
+            "name": "吃瓜时刻时装",
+            "type": 100,
+            "value": 248,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0521",
+            "name": "紫色游行时装",
+            "type": 100,
+            "value": 249,
+            "subType": 0,
+            "count": 1
+          },
+          {
+            "code": "RM0522",
+            "name": "活动体力",
+            "type": 24,
+            "value": 11,
+            "subType": 0,
+            "count": 22000
+          }
+        ]
+      ]
+    }
+  ]
+}

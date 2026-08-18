@@ -1,0 +1,9 @@
+Package: com.rmtool.magicrecipe
+Name: RMTool Magic Recipe
+Version: 1.2.5
+Architecture: iphoneos-arm64
+Description: Magic Recipe local-mail floating tool
+Maintainer: RMTool
+Author: RMTool
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
