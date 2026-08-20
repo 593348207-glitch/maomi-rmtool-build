@@ -15,7 +15,9 @@ struct API {
   const MethodInfo* (*class_get_method_from_name)(Il2CppClass*, const char*, int);
   const MethodInfo* (*class_get_methods)(Il2CppClass*, void**);
   uint32_t (*method_get_param_count)(const MethodInfo*);
+  const char* (*method_get_name)(const MethodInfo*);
   const void* (*method_get_param)(const MethodInfo*, uint32_t);
+  const char* (*class_get_name)(Il2CppClass*);
   char* (*type_get_name)(const void*);
   Il2CppObject* (*object_new)(Il2CppClass*);
   Il2CppObject* (*runtime_invoke)(const MethodInfo*, void*, void**, Il2CppObject**);
@@ -32,7 +34,9 @@ static BOOL LoadAPI() {
   g.class_get_method_from_name=(decltype(g.class_get_method_from_name))sym("il2cpp_class_get_method_from_name");
   g.class_get_methods=(decltype(g.class_get_methods))sym("il2cpp_class_get_methods");
   g.method_get_param_count=(decltype(g.method_get_param_count))sym("il2cpp_method_get_param_count");
+  g.method_get_name=(decltype(g.method_get_name))sym("il2cpp_method_get_name");
   g.method_get_param=(decltype(g.method_get_param))sym("il2cpp_method_get_param");
+  g.class_get_name=(decltype(g.class_get_name))sym("il2cpp_class_get_name");
   g.type_get_name=(decltype(g.type_get_name))sym("il2cpp_type_get_name");
   g.object_new=(decltype(g.object_new))sym("il2cpp_object_new");
   g.runtime_invoke=(decltype(g.runtime_invoke))sym("il2cpp_runtime_invoke");
@@ -56,12 +60,46 @@ static const Il2CppImage *GameImage() {
     if(g.class_from_name(im,"Currency","CurrencyData") && g.class_from_name(im,"","CencySave")) return im; }
   return nullptr;
 }
+static const MethodInfo *FindZeroArgMethod(Il2CppClass *klass, NSArray<NSString*> *names) {
+  if(!klass||!g.class_get_methods||!g.method_get_param_count||!g.method_get_name)return nullptr;
+  void *it=nullptr; const MethodInfo *m;
+  while((m=g.class_get_methods(klass,&it))){
+    if(g.method_get_param_count(m)!=0)continue;
+    const char *methodName=g.method_get_name(m); if(!methodName)continue;
+    for(NSString *candidate in names)if(strcmp(methodName,candidate.UTF8String)==0)return m;
+  }
+  return nullptr;
+}
 static NSDictionary *ReadJSON(NSString *name) {
   NSArray *paths=@[[NSHomeDirectory() stringByAppendingPathComponent:[@"Documents/RMTool/" stringByAppendingString:name]],
     [@"/Library/Application Support/RMTool/" stringByAppendingString:name],
     [@"/var/jb/Library/Application Support/RMTool/" stringByAppendingString:name]];
   for(NSString *p in paths){ NSData *d=[NSData dataWithContentsOfFile:p]; if(d){ id x=[NSJSONSerialization JSONObjectWithData:d options:0 error:nil]; if(x)return x; }}
   return nil;
+}
+static BOOL ClearMail(NSString **error) {
+  if(!LoadAPI()){if(error)*error=@"IL2CPP API未就绪";return NO;}
+  auto image=GameImage(); if(!image){if(error)*error=@"找不到游戏类";return NO;}
+  auto cs=g.class_from_name(image,"","CencySave");
+  auto getter=g.class_get_method_from_name(cs,"get_LocalMailData",0);
+  if(!getter){if(error)*error=@"找不到邮箱数据方法";return NO;}
+  Il2CppObject *exc=nullptr; auto local=g.runtime_invoke(getter,nullptr,nullptr,&exc);
+  if(!local||exc){if(error)*error=@"存档尚未初始化";return NO;}
+  auto lm=(Il2CppClass*)*(void**)((uint8_t*)local);
+  const MethodInfo *clear=FindZeroArgMethod(lm,@[@"ClearLocalMail",@"ClearLocalMails",@"ClearMail",@"ClearMails",@"DeleteAllLocalMail",@"DeleteAllLocalMails",@"DeleteAllMail",@"DeleteAllMails",@"RemoveAllLocalMail",@"RemoveAllLocalMails",@"RemoveAllMail",@"RemoveAllMails"]);
+  if(!clear && g.class_get_name){
+    const char *className=g.class_get_name(lm);
+    if(className && (strstr(className,"Mail")||strstr(className,"List")||strstr(className,"Collection")))clear=FindZeroArgMethod(lm,@[@"Clear"]);
+  }
+  if(!clear){
+    NSLog(@"[RMTool] clear mailbox method not found");
+    if(error)*error=@"未找到游戏清空邮箱方法，未执行任何操作";
+    return NO;
+  }
+  g.runtime_invoke(clear,local,nullptr,&exc);
+  if(exc){if(error)*error=@"清空邮箱失败";return NO;}
+  NSLog(@"[RMTool] mailbox cleared");
+  return YES;
 }
 static BOOL AddMail(NSArray<NSDictionary*> *rewards, NSString *title, NSString **error) {
   if(!LoadAPI()){if(error)*error=@"IL2CPP API\u672A\u5C31\u7EEA";return NO;} auto image=GameImage();
@@ -200,12 +238,13 @@ static BOOL AddMail(NSArray<NSDictionary*> *rewards, NSString *title, NSString *
   UIScrollView *scroll=[[UIScrollView alloc] initWithFrame:CGRectMake(14,94,width-28,height-160)];scroll.showsVerticalScrollIndicator=NO;[card addSubview:scroll];
   CGFloat y=0,bh=48,gap=10;
   UIButton *custom=[self menuButton:@"\u81EA\u5B9A\u4E49\u7269\u54C1" tag:1 primary:YES];custom.frame=CGRectMake(0,y,scroll.bounds.size.width,bh);[scroll addSubview:custom];y+=bh+gap;
+  NSInteger idx=0;for(NSDictionary *p in self.presets[@"packages"]){NSString *t=p[@"buttonTitle"]?:[NSString stringWithFormat:@"?? %ld",(long)idx+1];UIButton *b=[self menuButton:t tag:1000+idx primary:NO];b.frame=CGRectMake(0,y,scroll.bounds.size.width,bh);[scroll addSubview:b];y+=bh+gap;idx++;}
   NSArray *clothes=[self.clothes[@"items"] isKindOfClass:NSArray.class]?self.clothes[@"items"]:@[];
   if(clothes.count){
     NSString *allTitle=[NSString stringWithFormat:@"\u4E00\u952E\u53D1\u9001\u5168\u90E8\u670D\u9970\uFF08%lu\u4EF6\uFF09",(unsigned long)clothes.count];
     UIButton *all=[self menuButton:allTitle tag:3 primary:NO];all.frame=CGRectMake(0,y,scroll.bounds.size.width,bh);[scroll addSubview:all];y+=bh+gap;
   }
-  NSInteger idx=0;for(NSDictionary *p in self.presets[@"packages"]){NSString *t=p[@"buttonTitle"]?:[NSString stringWithFormat:@"?? %ld",(long)idx+1];UIButton *b=[self menuButton:t tag:1000+idx primary:NO];b.frame=CGRectMake(0,y,scroll.bounds.size.width,bh);[scroll addSubview:b];y+=bh+gap;idx++;}
+  UIButton *clearMail=[self menuButton:@"\u4E00\u952E\u6E05\u7A7A\u90AE\u7BB1" tag:4 primary:NO];clearMail.frame=CGRectMake(0,y,scroll.bounds.size.width,bh);[scroll addSubview:clearMail];y+=bh+gap;
   scroll.contentSize=CGSizeMake(scroll.bounds.size.width,MAX(y,scroll.bounds.size.height+1));
   UIButton *close=[self menuButton:@"\u5173\u95ED\u83DC\u5355" tag:2 primary:NO];close.frame=CGRectMake(14,height-56,width-28,44);close.layer.borderColor=UIColor.whiteColor.CGColor;[card addSubview:close];
   card.transform=CGAffineTransformMakeScale(.9,.9);card.alpha=0;overlay.alpha=0;[w addSubview:overlay];self.menuOverlay=overlay;
@@ -217,7 +256,8 @@ static BOOL AddMail(NSArray<NSDictionary*> *rewards, NSString *title, NSString *
 -(void)onMenuButton:(UIButton*)b {
   if(b.tag==2){[self closeMenu];return;}
   if(b.tag==1){[self closeMenu];[self custom];return;}
-  if(b.tag==3){[self closeMenu];[self sendAllClothes];return;}
+  if(b.tag==3){[self closeMenu];[self confirmSendAllClothes];return;}
+  if(b.tag==4){[self closeMenu];[self confirmClearMailbox];return;}
   NSInteger idx=b.tag-1000;NSArray *packs=self.presets[@"packages"];
   if(idx>=0&&idx<(NSInteger)packs.count){NSDictionary *p=packs[idx];[self closeMenu];[self sendPack:p];}
 }
@@ -260,10 +300,28 @@ static BOOL AddMail(NSArray<NSDictionary*> *rewards, NSString *title, NSString *
   [self toast:[NSString stringWithFormat:@"%@\uFF1A\u5DF2\u53D1\u9001 %lu \u5C01\u90AE\u4EF6\uFF08%lu \u4EF6\uFF09",label,(unsigned long)ok,(unsigned long)rewards.count]];
 }
 
+-(void)confirmSendAllClothes {
+  NSArray *rewards=[self.clothes[@"items"] isKindOfClass:NSArray.class]?self.clothes[@"items"]:@[];
+  NSUInteger mails=(rewards.count+2)/3;
+  UIAlertController *a=[UIAlertController alertControllerWithTitle:@"确认发送全部服饰？" message:[NSString stringWithFormat:@"将创建 %lu 封邮件，共 %lu 件服饰。",(unsigned long)mails,(unsigned long)rewards.count] preferredStyle:UIAlertControllerStyleAlert];
+  [a addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+  [a addAction:[UIAlertAction actionWithTitle:@"确认发送" style:UIAlertActionStyleDefault handler:^(__unused id x){[self sendAllClothes];}]];
+  [[self top] presentViewController:a animated:YES completion:nil];
+}
+
 -(void)sendAllClothes {
   NSArray *rewards=[self.clothes[@"items"] isKindOfClass:NSArray.class]?self.clothes[@"items"]:@[];
   NSString *title=[self.clothes[@"title"] isKindOfClass:NSString.class]?self.clothes[@"title"]:@"\u5F85\u9886\u53D6\u7269\u54C1";
   [self sendRewards:rewards title:title label:@"\u5168\u90E8\u670D\u9970"];
+}
+
+-(void)confirmClearMailbox {
+  UIAlertController *a=[UIAlertController alertControllerWithTitle:@"确认清空邮箱？" message:@"将删除当前本地邮箱中的全部待领取邮件，此操作不可撤销。" preferredStyle:UIAlertControllerStyleAlert];
+  [a addAction:[UIAlertAction actionWithTitle:@"取消清空" style:UIAlertActionStyleCancel handler:nil]];
+  [a addAction:[UIAlertAction actionWithTitle:@"确认清空" style:UIAlertActionStyleDestructive handler:^(__unused id x){
+    NSString *e=nil; [self toast:ClearMail(&e)?@"邮箱已清空":(e?:@"清空邮箱失败")];
+  }]];
+  [[self top] presentViewController:a animated:YES completion:nil];
 }
 
 -(void)sendPack:(NSDictionary*)p {
